@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterSharp.Web", "TwitterSharp\TwitterSharp.Web.csproj", "{C4E617D4-FEAE-4E74-9118-4BCF0FE700B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterSharp.Data", "TwitterSharp.Data\TwitterSharp.Data.csproj", "{244B1F58-F623-4567-B7DF-4F0A5F79B87D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterSharp.Services", "TwitterSharp.Services\TwitterSharp.Services.csproj", "{52A53C04-4C3D-4059-8B70-F78FE37B26A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4E617D4-FEAE-4E74-9118-4BCF0FE700B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4E617D4-FEAE-4E74-9118-4BCF0FE700B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4E617D4-FEAE-4E74-9118-4BCF0FE700B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4E617D4-FEAE-4E74-9118-4BCF0FE700B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{244B1F58-F623-4567-B7DF-4F0A5F79B87D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{244B1F58-F623-4567-B7DF-4F0A5F79B87D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{244B1F58-F623-4567-B7DF-4F0A5F79B87D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{244B1F58-F623-4567-B7DF-4F0A5F79B87D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52A53C04-4C3D-4059-8B70-F78FE37B26A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52A53C04-4C3D-4059-8B70-F78FE37B26A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52A53C04-4C3D-4059-8B70-F78FE37B26A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52A53C04-4C3D-4059-8B70-F78FE37B26A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
+	EndGlobalSection
+EndGlobal
