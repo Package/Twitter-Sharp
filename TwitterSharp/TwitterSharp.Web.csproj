@@ -188,6 +188,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\TweetsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -249,9 +250,12 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Tweets\Create.cshtml" />
+    <Content Include="Views\Tweets\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Base\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -264,6 +268,10 @@
     <ProjectReference Include="..\TwitterSharp.Data\TwitterSharp.Data.csproj">
       <Project>{244b1f58-f623-4567-b7df-4f0a5f79b87d}</Project>
       <Name>TwitterSharp.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TwitterSharp.Services\TwitterSharp.Services.csproj">
+      <Project>{52A53C04-4C3D-4059-8B70-F78FE37B26A0}</Project>
+      <Name>TwitterSharp.Services</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

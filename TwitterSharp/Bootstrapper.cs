@@ -1,6 +1,8 @@
 using System.Web.Mvc;
 using Microsoft.Practices.Unity;
 using Unity.Mvc3;
+using TwitterSharp.Services.Services;
+using TwitterSharp.Controllers;
 
 namespace TwitterSharp
 {
@@ -16,11 +18,9 @@ namespace TwitterSharp
         private static IUnityContainer BuildUnityContainer()
         {
             var container = new UnityContainer();
-
-            // register all your components with the container here
-            // it is NOT necessary to register your controllers
-            
-            // e.g. container.RegisterType<ITestService, TestService>();            
+            container.RegisterType<AccountController>(new InjectionConstructor());
+            container.RegisterType<ITweetService, TweetService>();
+            container.RegisterType<IUserService, UserService>();
 
             return container;
         }

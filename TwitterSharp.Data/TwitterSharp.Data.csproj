@@ -98,6 +98,10 @@
     <Compile Include="Migrations\201806161405355_Initial Models.Designer.cs">
       <DependentUpon>201806161405355_Initial Models.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201806171814351_Null Dates.cs" />
+    <Compile Include="Migrations\201806171814351_Null Dates.Designer.cs">
+      <DependentUpon>201806171814351_Null Dates.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Comment.cs" />
     <Compile Include="Models\Like.cs" />
@@ -112,6 +116,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201806161405355_Initial Models.resx">
       <DependentUpon>201806161405355_Initial Models.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806171814351_Null Dates.resx">
+      <DependentUpon>201806171814351_Null Dates.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

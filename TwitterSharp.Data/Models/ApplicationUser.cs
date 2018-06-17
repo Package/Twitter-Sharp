@@ -16,10 +16,10 @@ namespace TwitterSharp.Data.Models
         [Display(Name = "Private Profile")]
         public bool Private { get; set; }
 
-        public DateTime DateJoined { get; set; }
+        public DateTime? DateJoined { get; set; }
 
         [Display(Name = "Date of Birth")]
-        public DateTime DateOfBirth { get; set; }
+        public DateTime? DateOfBirth { get; set; }
 
         public string Location { get; set; }
 
