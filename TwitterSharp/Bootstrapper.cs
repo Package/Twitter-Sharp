@@ -19,6 +19,7 @@ namespace TwitterSharp
         {
             var container = new UnityContainer();
             container.RegisterType<AccountController>(new InjectionConstructor());
+            container.RegisterType<ManageController>(new InjectionConstructor());
             container.RegisterType<ITweetService, TweetService>();
             container.RegisterType<IUserService, UserService>();
 
